@@ -1,3 +1,4 @@
+require 'pry'
 def line(katz_deli_line)
   if katz_deli_line.length == 0
     puts "The line is currently empty."
@@ -6,6 +7,7 @@ def line(katz_deli_line)
     katz_deli_line.each.with_index(1) do |person, i|
       line << "#{i}. #{person}."
     end
+    binding.pry
     puts line
   end
   end
