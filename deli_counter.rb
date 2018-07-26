@@ -8,6 +8,6 @@ def line(katz_deli_line)
       line << "#{i}. #{person}."
     end
     puts line
+    end
     binding.pry
-  end
   end
