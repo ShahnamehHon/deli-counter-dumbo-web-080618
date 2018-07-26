@@ -4,3 +4,4 @@ def line(katz_deli_line)
   else
     line = "The line is currently:"
     
+    
